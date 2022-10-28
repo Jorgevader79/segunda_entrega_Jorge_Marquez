@@ -1,0 +1,632 @@
+
+*{
+	border:0;
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+	/*box-shadow: 0 0 1px white;*/
+
+}
+
+
+/*index estilo */
+
+
+@media screen and (min-width: 320px){
+	
+
+
+header{
+
+background-image: url(https://us.123rf.com/450wm/studio306/studio3061603/studio306160300213/53064884-palillos-de-madera-en-el-fondo-estera-de-bamb%C3%BA-negro.jpg?ver=6);	
+font-size: 40px;
+background-repeat: no-repeat;
+background-size: cover;
+height:auto;
+border: 2px solid black;
+object-fit: cover;
+max-width: 100%;
+
+}
+
+}
+
+@media screen and (min-width: 320px){
+
+h1{
+
+color: white;   
+font-family: 'Roboto', sans-serif;
+font-size: larger;	
+}
+
+
+h3{
+
+color: white;
+text-align: right; 
+font-family: 'Roboto', sans-serif;
+margin-top: 75px;
+
+}
+
+}
+
+.mainimagen2{
+
+	
+	margin-top: 120px;
+	margin-right: 170px;
+	height: 200px;
+	width: 200px;
+	border: 4px solid rgb(247, 172, 12)
+
+}
+
+
+
+
+@media screen and (max-width: 500px){
+
+.mainimagen2{
+
+margin: 120px auto;	
+
+	
+	
+	
+}
+
+}	
+
+
+
+.nav {
+padding: 5px;
+text-align: center;
+list-style: none;
+background-color: rgb(255, 145, 0);
+text-decoration: none;
+}
+
+
+.nav li{
+
+padding: 11px;
+display: inline;
+text-decoration: none;
+	
+ }
+
+
+
+.navul{
+
+text-transform: capitalize;
+display: inline-block;
+width: min-content;
+color: white;
+text-decoration: none;
+padding: 3rem;
+font-size: 50px;
+text-align: center;
+	
+	
+}
+
+
+
+.nav-link{
+/*display: block;*/ 
+font-size: 22px;
+color: white;
+text-decoration: none;
+font-family: 'Roboto', sans-serif;
+box-sizing: border-box;
+ 
+}
+
+
+@media screen and (min-width: 320px){
+
+main{
+
+background-image: url(https://images.unsplash.com/photo-1617196905100-216ffe128142?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=864&q=80s);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: auto;
+border: 2px solid black;
+text-decoration: none;
+object-fit: cover;
+max-width: 100%;
+padding: 15px;
+
+}
+
+}
+
+
+/*Menu estilo*/
+
+
+
+.mainmenu{
+
+font-size: 50px;
+text-decoration: none;
+
+}
+
+
+.ulmenu{
+
+list-style: none;
+
+}
+
+
+
+.mainpresentacion{
+
+font-size: 50px;
+color: white;
+font-family: 'Roboto', sans-serif;
+
+
+}
+
+.maingaleria{
+
+font-size: 50px;
+
+}
+
+.mainquienessomos{
+
+font-size: 50px;
+
+}
+
+.mainhistorias{
+
+font-size: 45px;
+
+}
+
+.mainhistoria1{
+	
+padding: 10px;
+color: white;
+font-family: 'Roboto', sans-serif;
+font-size: 24px;
+text-align: center;
+text-align: justify;
+Background-color: rgba(0,0,0,.5)
+}
+
+
+@media screen and (min-width: 320px) {
+
+.mainpresentacion2{
+color: white;
+font-size: 25px;
+text-align: right;
+margin-top: 350px;
+
+
+}
+
+}
+
+
+li{
+color: white;
+font-family: 'Roboto', sans-serif;
+font-size: 15px;
+margin-top: 5px;
+text-align: center;
+}
+
+
+h6{
+
+color: white;
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+margin-top: 5px;
+text-align: center;
+
+}
+
+
+.historia1{
+
+color: white;
+font-family: 'Roboto', sans-serif;
+font-size: 30px;
+	
+
+}
+
+
+.quienessomos{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+
+.logo{
+
+display: flex;
+justify-content: right;
+
+
+
+}
+
+
+.mainquienes1{
+
+
+color: white;
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+Background-color: rgba(0, 0, 0, .5);
+height: 230px;
+width: 290px;
+border: 2px solid black;
+padding: 4px;
+align-self: flex-end;
+
+
+}
+	
+
+
+
+.mainquienes2{
+
+
+color: white;
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+Background-color: rgba(0,0,0,.5);
+width: 290px;
+border: 2px solid black;
+padding: 4px;
+align-self: flex-end;
+
+}
+
+
+
+.muchachos{
+
+	
+	height: 310px;
+	width: 290px;
+	align-self: flex-end;
+	
+}
+
+
+
+.maincontacto{
+display: flex;
+font-family: 'Roboto', sans-serif;
+font-size: 50px;
+text-align: right;
+position: relative;
+
+}
+
+.maincontacto1{
+
+display: flex;
+text-align: right;
+flex-direction: column;
+font-size: 40px;
+font-family: 'Roboto', sans-serif;
+position: relative;
+bottom:60px;
+right: 70px;
+
+}
+
+.spancontacto{
+
+display: flex;
+text-align: right;
+flex-direction: column;
+font-size: 30px;
+font-family: 'Roboto', sans-serif;
+position: relative;
+color: white;
+bottom: 50px;
+right: 90px;
+
+}
+
+
+.mapacontacto{
+
+	display: flex;
+	flex-direction: row;
+	height: 250px;
+	width: 400px;	
+	position: relative;
+	left: 800px;
+	bottom: 5px;
+
+
+	/*
+	flex-wrap: wrap;
+	justify-content: space-around;
+	*/
+}
+
+
+
+
+
+
+.galeriawrap{
+
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+margin: auto;
+
+
+
+
+}
+
+
+
+.californiaroll{
+	
+	display: inline;
+	height: 220px;
+	width: 220px;
+	border: 2px solid rgb(245, 154, 19)
+	
+	
+}
+
+.hotroll {
+
+	display: inline;
+	height: 220px;
+	width: 220px;
+	border: 2px solid rgb(245, 154, 19)
+}
+
+
+.makiroll{
+
+	display: inline;
+	height: 220px;
+	width: 220px;
+	border: 2px solid rgb(245, 154, 19)
+}
+
+
+.nyroll{
+
+	display: inline;
+	height: 220px;
+	width: 220px;
+	border: 2px solid rgb(245, 154, 19)
+}
+
+
+.smokeroll{
+
+	display: inline;
+	height: 220px;
+	width: 220px;
+	border: 2px solid rgb(245, 154, 19)
+}
+
+.tunroll{
+
+	display: inline;
+	height: 220px;
+	width: 220px;
+	border: 2px solid rgb(245, 154, 19)
+}
+
+
+.capreroll{
+
+	display: inline;
+	height: 220px;
+	width: 220px;
+	border: 2px solid rgb(245, 154, 19)
+
+}
+
+.nigiris{
+
+	display: inline;
+	height: 220px;
+	width: 220px;
+	border: 2px solid rgb(245, 154, 19)
+
+}
+
+.philaroll{
+
+	display: inline;
+	height: 220px;
+	width: 220px;
+	border: 2px solid rgb(245, 154, 19)
+}
+
+.ebiroll{
+
+	display: inline;
+	height: 220px;
+	width: 220px;
+	border: 2px solid rgb(245, 154, 19)
+
+}
+
+.niponpromo{
+
+	display: inline;
+	height: 220px;
+	width: 220px;
+	border: 2px solid rgb(245, 154, 19)
+}
+
+.tokiopromo{
+
+	display: inline;
+	height: 220px;
+	width: 220px;
+	border: 2px solid rgb(245, 154, 19)
+}
+
+
+.vegipromo{
+
+
+	display: inline;
+	height: 220px;
+	width: 220px;
+	border: 2px solid rgb(245, 154, 19)
+}
+
+.placepromo{
+
+	display: inline;
+	height: 220px;
+	width: 220px;
+	border: 2px solid rgb(245, 154, 19)
+
+}
+
+
+
+.menu1{
+
+/*
+display: flex;
+flex-direction:row;
+justify-content: center;
+justify-content: space-around;
+align-items: center;
+*/
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+
+
+
+}
+
+
+
+.menuclasicos{
+
+	display: inline;
+	height: 440px;
+	width: 330px;
+	border: 2px solid black
+	
+
+}
+
+
+
+.menuespeciales{
+
+	display: inline;
+	height: 440px;
+	width:330px;
+	border: 5PX;
+	border: 2px solid black
+}
+
+
+
+.menucombos{
+
+	display: inline;
+	height: 440px;
+	width: 330px;
+	border: 5px;
+	border: 2px solid black
+
+}
+
+
+
+@media screen and (min-width: 320px){
+
+	.footerlink{
+	
+	
+		display:flex;
+		justify-content: space-evenly;
+		justify-items: center;	
+		background-color: black;
+		height: 90px;
+		list-style: none;
+		padding-top: 40px;
+	
+	}
+
+
+#instagram{
+
+	color: rgb(201, 141, 31);
+	font-size: 2rem;
+	
+	
+
+}
+
+#rappi{
+
+	color: yellow;
+	font-size: 2rem;
+	
+}
+
+#pedidos{
+
+	color: red;
+	font-size: 2rem;
+	
+}
+
+
+}
+
+#whatsapp{
+
+color: green;
+
+
+}
+
+#email{
+
+color: orangered;
+
+
+}
+
+
